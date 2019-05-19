@@ -6,6 +6,6 @@ venv/**
 
 # Ignore files from Jetbrains IDE Pycharm
 .idea/.iws
-.idea/.workspace.xml
+.idea/workspace.xml
 .idea/tasks.xml
 
