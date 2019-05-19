@@ -1,0 +1,5 @@
+# In mac osx, some people use .Python file
+.Python
+
+# name of the virtual env
+venv/**
