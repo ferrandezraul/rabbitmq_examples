@@ -7,10 +7,12 @@ channel = connection.channel()
 
 channel.exchange_declare(exchange='logs', exchange_type='fanout')
 
+# Create queue with a random name
 result = channel.queue_declare('', exclusive=True)
 
 queue_name = result.method.queue
 
+# Bind the queue with the exchange
 channel.queue_bind(exchange='logs', queue=queue_name)
 
 print(' [*] Waiting for logs. To exit press CTRL+C')
