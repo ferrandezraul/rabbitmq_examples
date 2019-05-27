@@ -1,5 +1,7 @@
 # Examples of rabbitmq using python 3.7
 
+Those examples are extracted from [Rabbitmq](https://www.rabbitmq.com)  official site.
+
 Examples are classified in folders.
 
 Install pip first
